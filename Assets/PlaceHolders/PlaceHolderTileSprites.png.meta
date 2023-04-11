@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 3105f1c9ddd9b7245ac8dc5d7e498fcf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 357
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a031bb781c80f9849bda8c9716f782ce
+      internalID: 53640871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 357
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e8b3026b769c64cb015dbc18a14700
+      internalID: -911802934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 357
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f719fc4475e67294f9e82388c929bc2d
+      internalID: -1695125677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 357
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3668990fa35f449cd685d14817f05
+      internalID: -126590537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 357
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5149c785b185467408bda4b01b176c8f
+      internalID: -2074075349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 332
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4776fbef7172134479c12f5cfb3efcaf
+      internalID: -1437137921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 357
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06e4eb993606ea4fb9fd6c99e9ae395
+      internalID: -1300610647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 372
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636e58702e70ef94ab9a1e1d6620269e
+      internalID: -1292398216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_8
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 357
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a37f282248149458112c296e5903f3
+      internalID: -2074007506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 356.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba46681a4750d43b219353778b486c
+      internalID: 942715783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 322
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68082eb99af8fe34b8d7832b911ac874
+      internalID: 780248425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 291
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79323a0c00a5f61459afd925018471a7
+      internalID: 232153314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 293
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be353ad3e21cb1498addac344d6c632
+      internalID: -1769450078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 291
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa88eac11b4fb14fb196d437e120fdf
+      internalID: -454938906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_14
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 291
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b6079e783fe044a9921a2db0081a01
+      internalID: -1852508415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 296
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe555439890c69488bf321f3ac77d47
+      internalID: 4407684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 285.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdee84d99e175d7448b5ecb14a730d12
+      internalID: 1217420634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_17
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 285.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959cefabe429af439527f9f8933c989
+      internalID: 509416678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 285.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb271362a1797284db928886d2608815
+      internalID: -1368370992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_19
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 285.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0f5e68502f2ca4590497077c425913
+      internalID: 270142626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 227
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53a0a8cdce3fd74fb30579e99a81396
+      internalID: 2008454761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 227
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a89cda17baeaba4eaf8d373a5a9db94
+      internalID: -1459273957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 228
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3293baff8bca91f4395da343a5c388ca
+      internalID: -625197510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 227
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5d4daffcddb1d4c913aad45845db05
+      internalID: -978499102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 228
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5ee458e05f3a4e99f2cedeeeaa33a
+      internalID: 987073017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 228
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7442106d8474bf6499c3418bf4706775
+      internalID: 79832857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 227
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fee20584f0ba146b8adde7d8abccd4
+      internalID: -1615446247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_27
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 214.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8986ac1cdf5ce924db067e33a998f9c7
+      internalID: 31592726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 214.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb98e33dfe305245a18c6a94842b41a
+      internalID: 34657577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_29
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 214.66666
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad14cbb2fb89a749ba6ebdfbf5db690
+      internalID: -833416666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 162
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca8846beec347d4eae73e4f4948eca6
+      internalID: 12234931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 162
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedd839614032354582e2bf4e47f67ea
+      internalID: 38985479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 164
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0119bb1468215794ab2702a227e90755
+      internalID: 762181094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_33
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 163
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846442c46ef005f4e90ceeb7a4d9dee5
+      internalID: 1056253442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_34
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 163
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb51a9e542482964ab0ab6decb68ff6e
+      internalID: -1875773668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_35
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 157
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4decf330aa4052e40b72bf9899a4f054
+      internalID: 1501623159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_36
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 156
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05779abd289246f4c84ad878294325ed
+      internalID: -386112452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_37
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 156
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebadc815ad7ce8c458cfbcb56512376c
+      internalID: 624892899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_38
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 155
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4c03aa7ebb05944a3faea62b95224d
+      internalID: 1986195631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_39
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 157
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6b941aafeb76840a0692407b1f5df8
+      internalID: 1955191698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299b7a6183f1c6740846ca5cdc2cb079
+      internalID: -570377105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b020e3af58badba45b71c74cec4d9617
+      internalID: 1457077253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d506ef22619df14aa64d9d5bd709888
+      internalID: -2089548026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d48905c55ef1145ad7118b084f74c0
+      internalID: -1306250688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6bfef568a10c14589c5d50448798e7
+      internalID: 1388908373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f48dc4e9d5ef1143965c868ba36794e
+      internalID: 1119945893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75d66876d4c1f04bb9a4ce27c071fcc
+      internalID: -482338424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_47
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06a29de44b193948bf9b1ba78d591bf
+      internalID: 839581952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_48
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfe28f57312bf947965e01a163e18b3
+      internalID: -2063787621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_49
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 72.666664
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b59586d5e71b429b93990b59df974
+      internalID: 1226245089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102e4623bb29241478b5717d7a86a8af
+      internalID: -1486534718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_51
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa14875052f27c34699a7cd3fe8e721b
+      internalID: -2004815913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be581511420f96a4cb9cfe735bb5ec49
+      internalID: 1166858082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_53
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f05e708948a5b4cb419da9cb06d5dc
+      internalID: 1381401546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_54
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54799253e8d43c429741c74d16e97fe
+      internalID: 1286545354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d926ad44c28300498442840a44c18d8
+      internalID: 956434316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_56
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bba63a2600859d4a8b722903e405ebd
+      internalID: -402699986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_57
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6f703bd7b98f418c3be2a3533d8e4
+      internalID: 202368033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_58
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebdd10734b549248b7ced3d5f26aad6
+      internalID: 562864830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderTileSprites_59
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1.6666641
+        width: 70
+        height: 71.333336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1905dd105170341974136abd4e944d
+      internalID: -2085947538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlaceHolderTileSprites_3: -126590537
+      PlaceHolderTileSprites_8: -2074007506
+      PlaceHolderTileSprites_5: -1437137921
+      PlaceHolderTileSprites_14: -1852508415
+      PlaceHolderTileSprites_59: -2085947538
+      PlaceHolderTileSprites_26: -1615446247
+      PlaceHolderTileSprites_36: -386112452
+      PlaceHolderTileSprites_37: 624892899
+      PlaceHolderTileSprites_42: -2089548026
+      PlaceHolderTileSprites_58: 562864830
+      PlaceHolderTileSprites_48: -2063787621
+      PlaceHolderTileSprites_30: 12234931
+      PlaceHolderTileSprites_43: -1306250688
+      PlaceHolderTileSprites_56: -402699986
+      PlaceHolderTileSprites_32: 762181094
+      PlaceHolderTileSprites_20: 2008454761
+      PlaceHolderTileSprites_53: 1381401546
+      PlaceHolderTileSprites_54: 1286545354
+      PlaceHolderTileSprites_17: 509416678
+      PlaceHolderTileSprites_22: -625197510
+      PlaceHolderTileSprites_34: -1875773668
+      PlaceHolderTileSprites_13: -454938906
+      PlaceHolderTileSprites_47: 839581952
+      PlaceHolderTileSprites_38: 1986195631
+      PlaceHolderTileSprites_55: 956434316
+      PlaceHolderTileSprites_40: -570377105
+      PlaceHolderTileSprites_44: 1388908373
+      PlaceHolderTileSprites_2: -1695125677
+      PlaceHolderTileSprites_46: -482338424
+      PlaceHolderTileSprites_1: -911802934
+      PlaceHolderTileSprites_11: 232153314
+      PlaceHolderTileSprites_27: 31592726
+      PlaceHolderTileSprites_19: 270142626
+      PlaceHolderTileSprites_29: -833416666
+      PlaceHolderTileSprites_33: 1056253442
+      PlaceHolderTileSprites_35: 1501623159
+      PlaceHolderTileSprites_23: -978499102
+      PlaceHolderTileSprites_21: -1459273957
+      PlaceHolderTileSprites_25: 79832857
+      PlaceHolderTileSprites_16: 1217420634
+      PlaceHolderTileSprites_39: 1955191698
+      PlaceHolderTileSprites_9: 942715783
+      PlaceHolderTileSprites_4: -2074075349
+      PlaceHolderTileSprites_41: 1457077253
+      PlaceHolderTileSprites_7: -1292398216
+      PlaceHolderTileSprites_51: -2004815913
+      PlaceHolderTileSprites_57: 202368033
+      PlaceHolderTileSprites_10: 780248425
+      PlaceHolderTileSprites_6: -1300610647
+      PlaceHolderTileSprites_28: 34657577
+      PlaceHolderTileSprites_45: 1119945893
+      PlaceHolderTileSprites_50: -1486534718
+      PlaceHolderTileSprites_24: 987073017
+      PlaceHolderTileSprites_52: 1166858082
+      PlaceHolderTileSprites_12: -1769450078
+      PlaceHolderTileSprites_15: 4407684
+      PlaceHolderTileSprites_31: 38985479
+      PlaceHolderTileSprites_0: 53640871
+      PlaceHolderTileSprites_18: -1368370992
+      PlaceHolderTileSprites_49: 1226245089
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
