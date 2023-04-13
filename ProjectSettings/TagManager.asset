@@ -3,10 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
   - Wall
   - Item
   - Monster
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -52,4 +52,19 @@ TagManager:
     locked: 0
   - name: WALL
     uniqueID: 1975501367
+    locked: 0
+  - name: Background
+    uniqueID: 3630110981
+    locked: 0
+  - name: Player
+    uniqueID: 923893659
+    locked: 0
+  - name: Pickups
+    uniqueID: 1421977057
+    locked: 0
+  - name: Enemy
+    uniqueID: 3310729289
+    locked: 0
+  - name: UI
+    uniqueID: 1413025097
     locked: 0
