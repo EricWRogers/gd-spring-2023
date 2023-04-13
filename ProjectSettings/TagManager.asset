@@ -3,8 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
   - Wall
+  - Item
+  - Monster
   - Floor
   layers:
   - Default
@@ -42,6 +43,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PressurePlate
+    uniqueID: 564737733
+    locked: 0
+  - name: Surface
+    uniqueID: 2990279775
+    locked: 0
+  - name: WALL
+    uniqueID: 1975501367
     locked: 0
   - name: Background
     uniqueID: 3630110981
