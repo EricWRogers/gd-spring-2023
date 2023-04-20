@@ -1,12 +1,19 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 
     public class Player : MonoBehaviour
     {
         public static Player PlayerObject;
-        private const float PLAYER_SPEED = 15;       
-        private const float WATER_MAX_COOLDOWN = 0.2f;
+        private Rigidbody2D rb;
+        public List<string> tagsJump;
+        public Vector2 jump;
+        public float jumpForce = 2.0f;
+        public bool isGrounded;
+        public float PLAYER_SPEED = 15.0f;       
+        public const float WATER_MAX_COOLDOWN = 0.2f;
         private float WaterCooldown;
         private bool Alive = true;
             
@@ -14,6 +21,8 @@ using UnityEngine;
         void Start()
         {
             PlayerObject = this;
+            jump = new Vector2(0.0f, 2.0f);
+            rb = gameObject.GetComponent<Rigidbody2D>();
         }
 
         // Update is called once per frame
@@ -39,18 +48,36 @@ using UnityEngine;
                 }
             }
         }
+
+        void OnTriggerStay2D(Collider2D other)
+        {
+            if (tagsJump.Contains(other.gameObject.tag))
+            {
+                isGrounded = true;
+            }
+        }
  
-        private void FixedUpdate()
+        void FixedUpdate()
         {
             //moving controls
             if (Alive)
             {
                 float moveX = Input.GetAxis("Horizontal");
-                float moveY = Input.GetAxis("Vertical");
-                Vector2 newVelocity = new Vector2(moveX, moveY).normalized * PLAYER_SPEED;
+                
+                Vector2 velocity = rb.velocity;
+                velocity.x = Input.GetAxis("Horizontal") * PLAYER_SPEED;
+                rb.velocity = velocity;
 
-                Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
-                rb.velocity = newVelocity;
+                
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    if (isGrounded)
+                    {
+                        Debug.Log("Space!");
+                        rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
+                        isGrounded = false;
+                    }
+                }
             }    
             
             // menu controls

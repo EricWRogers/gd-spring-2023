@@ -57,4 +57,15 @@ public class Timer : MonoBehaviour
     {
         paused = true;
     }
+    public void Subtract(int timeDown)
+    {
+        if(timeLeft - timeDown > 0)
+        {
+            timeLeft = timeLeft - timeDown;
+        }
+        else
+        {
+            timeLeft = 0.0f; 
+        }
+    }
 }
