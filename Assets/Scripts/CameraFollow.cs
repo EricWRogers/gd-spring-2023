@@ -39,5 +39,5 @@ public class CameraFollow : MonoBehaviour
 }
 
 // To use, put the script on the main camera, and drag the player object into the "Follow Transform" box
-// To restrict camera movement, create an object with a Box Collider 2D, resize it to the correct size, and drag the object into the "Map Bounds" box
+// To restrict camera movement, create an object with a Box Collider 2D, resize it to the correct size, and drag the object into the "Map Bounds" box, make sure to make box collider "is trigger"
 //If you have any questions, ask Connor
