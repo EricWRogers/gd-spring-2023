@@ -5,14 +5,13 @@ using UnityEngine;
 public class WaterController : MonoBehaviour
 {
     public GameObject gm;
-    private WaterPercentage Wp;
-
-    private void Start()
+    public WaterPercentage Wp;
+    void Start()
     {
         Wp = GameObject.Find("Canvas").GetComponent< WaterPercentage>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
