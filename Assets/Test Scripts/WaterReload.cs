@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaterReload : MonoBehaviour
 {
@@ -15,12 +16,13 @@ public class WaterReload : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (col.tag == "Player")
+        if (other.tag == "Player")
         {
+            waterBarController.fill += waterAdd;
+            waterAdd = 0;
             Destroy(gameObject);
-            waterBarController.curCap = waterBarController.curCap + waterAdd;
         }
     }
 
