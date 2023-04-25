@@ -12,6 +12,8 @@ TagManager:
   - Monster
   - Floor
   - CPickup
+  - Spikes
+  - Boot
   layers:
   - Default
   - TransparentFX
