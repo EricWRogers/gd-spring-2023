@@ -46,7 +46,7 @@ public class EnemyContact : MonoBehaviour
 
     void ShowFloatingText()
     {
-       var go =Instantiate(timePopup, transform.position, Quaternion.identity, transform);
+       GameObject go = Instantiate(timePopup, transform.position, Quaternion.identity, transform);
        go.GetComponent<TextMeshPro>().text = "-" + timeDown.ToString();
     }
 
