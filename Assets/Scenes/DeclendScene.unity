@@ -303,6 +303,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: pfTimePopup
       objectReference: {fileID: 0}
+    - target: {fileID: 6025052524981135876, guid: 92346d8c60fea344298f4c54bdfa76fb, type: 3}
+      propertyPath: Offset.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025052524981135876, guid: 92346d8c60fea344298f4c54bdfa76fb, type: 3}
+      propertyPath: RandomizeIntensity.x
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 7164560362516339058, guid: 92346d8c60fea344298f4c54bdfa76fb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
