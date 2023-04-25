@@ -31,7 +31,7 @@ public class DestructibleItem : MonoBehaviour
         }
         else  // item is still alive, change sprite
         {
-            GetComponent<SpriteRenderer>().sprite = Sprites[Health - 1];
+            //GetComponent<SpriteRenderer>().sprite = Sprites[Health];
         }
     }
 }
