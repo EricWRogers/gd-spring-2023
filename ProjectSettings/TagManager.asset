@@ -11,6 +11,7 @@ TagManager:
   - Item
   - Monster
   - Floor
+  - Boot
   layers:
   - Default
   - TransparentFX
