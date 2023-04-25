@@ -59,10 +59,10 @@ public class Monster : MonoBehaviour
         }
     }
 
-   // private void OnCollisionEnter2D(Collision2D other)
-   // {
-   //     if (other.gameObject.CompareTag("Player")) Player.PlayerObject.Defeat(); // kill player
-   // }    
+  // private void OnCollisionEnter2D(Collision2D other)
+  // {
+  //      if (other.gameObject.CompareTag("Player")) Player.PlayerObject.Defeat(); // kill player
+//  }    
 }
 
 
