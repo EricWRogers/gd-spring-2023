@@ -11,6 +11,7 @@ TagManager:
   - Item
   - Monster
   - Floor
+  - CPickup
   layers:
   - Default
   - TransparentFX

@@ -10,7 +10,6 @@ public class WaterBarController : MonoBehaviour
     [SerializeField]
     Text waterText;
 
-    public float maxCap = 100;
     public float curCap;
 
     // Start is called before the first frame update
