@@ -11,13 +11,17 @@ using UnityEngine;
         public List<string> tagsJump;
         public Vector2 jump;
         public float jumpForce = 2.0f;
+        public float enemyBounceMultipyer = 1.5f;
         public bool isGrounded;
+        public bool isKilledEnemy;
         public float PLAYER_SPEED = 15.0f;       
         public const float WATER_MAX_COOLDOWN = 0.2f;
         private float WaterCooldown;
         private bool Alive = true;
-            
-        // Start is called before the first frame update
+
+        public GameObject boot; // Put boot object here in the inspector
+
+    // Start is called before the first frame update
         void Start()
         {
             PlayerObject = this;
@@ -68,15 +72,27 @@ using UnityEngine;
                 velocity.x = Input.GetAxis("Horizontal") * PLAYER_SPEED;
                 rb.velocity = velocity;
 
-                
-                if (Input.GetKey(KeyCode.Space))
+                if (Input.GetKey(KeyCode.Space) || isKilledEnemy)
                 {
-                    if (isGrounded)
+                    if (isGrounded || isKilledEnemy)
                     {
                         Debug.Log("Space!");
-                        rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
+                        if (isKilledEnemy)
+                            rb.AddForce(jump * jumpForce * enemyBounceMultipyer, ForceMode2D.Impulse);
+                        else
+                            rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
                         isGrounded = false;
+                        isKilledEnemy = false;
                     }
+                }
+
+                if (isGrounded) //Turns boot off when on ground
+                {                
+                    boot.GetComponentInChildren<BoxCollider2D>().enabled = false;                
+                }
+                if (!isGrounded) //Turns boot on when off ground
+                {
+                    boot.GetComponentInChildren<BoxCollider2D>().enabled = true;                 
                 }
             }    
             
