@@ -15,8 +15,9 @@ public class PinToPlayer : MonoBehaviour
  {
     if(other.gameObject.tag == "CPickUp")
     {
+      timer.timeLeft += 10.0f;
       Destroy(other.gameObject);
-      timer.timeLeft += 10;  
+       
     }
 }
 }
