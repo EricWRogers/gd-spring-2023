@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 1840698688405040559}
   - component: {fileID: 1840698688405040556}
   - component: {fileID: 1840698688405040557}
-  - component: {fileID: 1840698688405040544}
   - component: {fileID: 1840698688405040558}
   - component: {fileID: 8325213983922456663}
   - component: {fileID: 7916980889151522147}
+  - component: {fileID: 4552108240872300132}
+  - component: {fileID: 2257005206782181150}
   m_Layer: 0
   m_Name: Candle
   m_TagString: Untagged
@@ -110,26 +111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1840698688405040544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840698688405040545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8260b517d47010f4aa483d5f1b1d9cf0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sr: {fileID: 0}
-  tagsWall:
-  - Wall
-  move: {x: 0, y: 0}
-  moveSpeed: 2
-  wallCollisionData: 0
-  movementDirection: 1
-  spriteFlip: 0
 --- !u!114 &1840698688405040558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,3 +157,43 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.34, y: 0.66}
   m_Direction: 0
+--- !u!114 &4552108240872300132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840698688405040545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4559003621ce37b488e2d33a9677d1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 0}
+  tagsWall:
+  - Wall
+  move: {x: 0, y: 0}
+  moveSpeed: 2
+  wallCollisionData: 0
+  movementDirection: 1
+  spriteFlip: 0
+--- !u!95 &2257005206782181150
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840698688405040545}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ce7c1a9d2569ca54e9fafc8b55fd375a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
