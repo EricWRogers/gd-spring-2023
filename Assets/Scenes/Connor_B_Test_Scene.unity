@@ -1163,6 +1163,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7916980889151522147, guid: 5d061941c580d874db1df8fb6722f1a6, type: 3}
+      propertyPath: m_Size.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916980889151522147, guid: 5d061941c580d874db1df8fb6722f1a6, type: 3}
+      propertyPath: m_Size.y
+      value: 0.66
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d061941c580d874db1df8fb6722f1a6, type: 3}
 --- !u!1001 &4864969301032683207
@@ -1175,6 +1183,10 @@ PrefabInstance:
     - target: {fileID: 4864969301283972761, guid: a63f402b842fd6b46889980600b2c3cf, type: 3}
       propertyPath: m_Name
       value: Jumper
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864969301283972761, guid: a63f402b842fd6b46889980600b2c3cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4864969301283972775, guid: a63f402b842fd6b46889980600b2c3cf, type: 3}
       propertyPath: m_RootOrder
@@ -1239,7 +1251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8751052807956268436, guid: b68aaecbe79f9a04585372af6da4c7af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.94
+      value: -1.87
       objectReference: {fileID: 0}
     - target: {fileID: 8751052807956268436, guid: b68aaecbe79f9a04585372af6da4c7af, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1273,10 +1285,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8751052807956268439, guid: b68aaecbe79f9a04585372af6da4c7af, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1602474722, guid: 094b36beacd22864ca7af6911448cf42, type: 3}
     - target: {fileID: 8751052807956268442, guid: b68aaecbe79f9a04585372af6da4c7af, type: 3}
       propertyPath: m_Name
       value: Ciggie
