@@ -5,17 +5,21 @@ using UnityEngine;
 public class GoombaMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    public SpriteRenderer sr;
     public List<string> tagsWall;
     public Vector2 move;
     public float moveSpeed = 1.0f;
     public int wallCollisionData = 0;
     public int movementDirection = 1;
+    public bool spriteFlip;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         move = new Vector2(1.0f, 0.0f);
     }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,6 +29,7 @@ public class GoombaMovement : MonoBehaviour
             Vector2 direction = (Vector2)other.gameObject.transform.position - (Vector2)transform.position;
 
             wallCollisionData = (direction.x < 0) ? -1 : 1;
+            spriteFlip = (direction.x < 0) ? sr.flipX = true : sr.flipX = false;
         }
     }
 

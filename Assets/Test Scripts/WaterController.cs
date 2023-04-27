@@ -6,6 +6,7 @@ public class WaterController : MonoBehaviour
 {
     public GameObject gm;
     public WaterPercentage Wp;
+    public AudioClip waterSound;
     void Start()
     {
         Wp = GameObject.Find("Canvas").GetComponent< WaterPercentage>();
@@ -16,6 +17,7 @@ public class WaterController : MonoBehaviour
         if (collision.tag == "Player")
         {
             Wp.score += 5f;
+            AudioSource.PlayClipAtPoint(waterSound, transform.position);
             Destroy(gameObject);
         }
     }

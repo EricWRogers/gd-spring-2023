@@ -51,10 +51,11 @@ using UnityEngine;
             //moving controls
             if (Alive)
             {
-                float moveX = Input.GetAxis("Horizontal");
+                float moveX = Input.GetAxisRaw("Horizontal");
                 
                 Vector2 velocity = rb.velocity;
-                velocity.x = Input.GetAxis("Horizontal") * PLAYER_SPEED;
+                velocity.x = Input.GetAxisRaw("Horizontal") * PLAYER_SPEED;
+                
                 rb.velocity = velocity;
 
                 if (Input.GetKey(KeyCode.Space) || isKilledEnemy)
