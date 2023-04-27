@@ -5,6 +5,7 @@ using UnityEngine;
 public class GoombaLikeMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    public SpriteRenderer sr;
     public List<string> tagsJump;
     public List<string> tagsWall;
     public Vector2 move;
@@ -14,11 +15,13 @@ public class GoombaLikeMovement : MonoBehaviour
     public bool isGrounded;
     public int wallCollisionData = 0;
     public int movementDirection = 1;
+    public bool spriteFlip;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         jump = new Vector2(0.0f, 2.0f);
         move = new Vector2(1.0f, 0.0f);
         //rb.AddForce(-move * moveSpeed, ForceMode2D.Force);
@@ -57,6 +60,7 @@ public class GoombaLikeMovement : MonoBehaviour
             //wallCollisionData = (int)direction.normalized.x;
             // variable = condition ? true : false;
             wallCollisionData = (direction.x < 0) ? -1 : 1;
+            spriteFlip = (direction.x < 0) ? sr.flipX = true : sr.flipX = false;
         }
     }
 
