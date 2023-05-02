@@ -5,11 +5,21 @@ using UnityEngine;
 public class PlantMovement : MonoBehaviour
 {
     public AnimationCurve myCurve;
+    public AudioClip thump;
    
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, myCurve.Evaluate((Time.time % myCurve.length)), transform.position.z);
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            
+            AudioSource.PlayClipAtPoint(thump, transform.position);
+        }
+    }
+
 
 
 }
