@@ -87,15 +87,12 @@ using UnityEngine;
             if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
           
         }
-        
-        private new object GetComponent<T>()
-        {
-            throw new NotImplementedException();
-        }
 
         public void Victory()
         {
-            transform.Find("VictoryText").gameObject.SetActive(true);
+            if (transform.Find("VictoryText") != null)
+                transform.Find("VictoryText").gameObject.SetActive(true);
+
             StartCoroutine(RestartLevelWithDelay(3f));
         }
         public void Defeat()
@@ -116,7 +113,7 @@ using UnityEngine;
         {
             yield return new WaitForSeconds(delay);
 
-            UnityEngine.SceneManagement.SceneManager.LoadScene("CristianScene(PrivateProperty)");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("KadenTitleScreen");
         }
 }
 

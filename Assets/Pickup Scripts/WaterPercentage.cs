@@ -11,21 +11,21 @@ public class WaterPercentage : MonoBehaviour
 
     void Awake()
     {
-        waterBC = FindObjectOfType<WaterBarController>();
+        //waterBC = FindObjectOfType<WaterBarController>();
     }
 
 
     void Start()
     {
         score = 0f;
-        score = score + waterBC.curCap;
-        textScore.text = score.ToString() + "% Water Capacity";
+        //score = score + waterBC.curCap;
+        //textScore.text = score.ToString() + "% Water Capacity";
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        textScore.text = score.ToString() + "% Water Capacity";
+        //textScore.text = score.ToString() + "% Water Capacity";
     }
 }
