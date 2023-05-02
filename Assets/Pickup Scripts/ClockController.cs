@@ -16,6 +16,7 @@ public class ClockController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            timer.timeLeft += 5.0f;
             AudioSource.PlayClipAtPoint(clockSound, transform.position);
             Destroy(gameObject);
         }

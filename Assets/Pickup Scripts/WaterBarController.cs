@@ -13,6 +13,7 @@ public class WaterBarController : MonoBehaviour
 
     public float curCap;
     public float fill;
+    public float overTime = 5.0f;
 
     // Start is called before the first frame update
     void Start()
