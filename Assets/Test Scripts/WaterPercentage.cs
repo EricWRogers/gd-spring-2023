@@ -7,11 +7,18 @@ public class WaterPercentage : MonoBehaviour
 {
     public TMP_Text textScore;
     public float score;
+    public WaterBarController waterBC;
+
+    void Awake()
+    {
+        waterBC = FindObjectOfType<WaterBarController>();
+    }
 
 
     void Start()
     {
         score = 0f;
+        score = score + waterBC.curCap;
         textScore.text = score.ToString() + "% Water Capacity";
         
     }
