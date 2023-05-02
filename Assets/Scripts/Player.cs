@@ -7,7 +7,6 @@ using UnityEngine;
     public class Player : MonoBehaviour
     {
 
-        public ParticleSystem pSystem;
         public static Player PlayerObject;
         private Rigidbody2D rb;
         public List<string> tagsJump;
@@ -21,13 +20,14 @@ using UnityEngine;
         private float WaterCooldown;
         private bool Alive = true;
 
-        public GameObject boot; // Put boot object here in the inspector
+         BoxCollider2D boot; // Put boot object here in the inspector
 
     // Start is called before the first frame update
         void Start()
         {
+            boot = GetComponentInChildren<BoxCollider2D>();
             PlayerObject = this;
-            pSystem = GetComponentInChildren<ParticleSystem>();
+            //pSystem = GetComponentInChildren<ParticleSystem>();
             jump = new Vector2(0.0f, 2.0f);
             rb = gameObject.GetComponent<Rigidbody2D>();
         }
@@ -35,34 +35,7 @@ using UnityEngine;
         // Update is called once per frame
         void Update()
         {
-            if (Alive)
-            {
-                // repurposed Water Shooting Controls
-
-                if (WaterCooldown > 0) WaterCooldown -= Time.deltaTime;
-
-                if (WaterCooldown <= 0)
-                {
-                    if (Input.GetKey(KeyCode.Mouse0)) // cast while button is hold
-                    {
-                        WaterCooldown = WATER_MAX_COOLDOWN;
-
-                        
-                        pSystem.Play();
-                        
-                        GameObject projectile = Instantiate(Resources.Load("Water")) as GameObject;
-                       
-                        projectile.transform.position = transform.position; // set position to position of player 
-                        projectile.GetComponent<Projectile>().Speed = 100;
-                        projectile.GetComponent<Projectile>().Angle = Mathf.Atan2(Input.mousePosition.y - Screen.height / 2f, Input.mousePosition.x - Screen.width / 2f); // aim with a mouse from screen center
-                    
-                    }
-                    else
-                    {
-                        pSystem.Stop();
-                    }
-                }
-            }
+            
         }
 
         void OnTriggerStay2D(Collider2D other)
@@ -101,25 +74,19 @@ using UnityEngine;
 
                 if (isGrounded) //Turns boot off when on ground
                 {                
-                    boot.GetComponentInChildren<BoxCollider2D>().enabled = false;                
+                    boot.enabled = false;                
                 }
                 if (!isGrounded) //Turns boot on when off ground
                 {
-                    boot.GetComponentInChildren<BoxCollider2D>().enabled = true;                 
+                    boot.enabled = true;                 
                 }
             }    
             
             // menu controls
             if (Input.GetKeyDown(KeyCode.R)) UnityEngine.SceneManagement.SceneManager.LoadScene("Level 1");
             if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
-            {
-                
-            }
-
-            
-            
+          
         }
-
         
         private new object GetComponent<T>()
         {
